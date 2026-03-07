@@ -41,9 +41,13 @@ namespace Offsets
     constexpr uintptr_t m_AttributeManager = 0x1378;       // C_EconEntity -> m_AttributeManager (FIXED!)
     constexpr uintptr_t m_Item             = 0x50;         // C_AttributeContainer -> m_Item
     constexpr uintptr_t m_iItemDefinitionIndex = 0x1BA;    // C_EconItemView -> m_iItemDefinitionIndex
+
     
     constexpr uintptr_t m_bIsDefusing      = 0x26FA;       // C_CSPlayerPawn -> m_bIsDefusing
     constexpr uintptr_t m_bIsScoped        = 0x26F8;       // C_CSPlayerPawn -> m_bIsScoped
     constexpr uintptr_t m_flFlashOverlayAlpha  = 0x15EC;       // C_CSPlayerPawn -> m_flFlashOverlayAlpha
+
+    constexpr uintptr_t m_weaponMode = 0x19A8; // CSWeaponMode
+    constexpr uintptr_t m_flRecoilIndex = 0x19D0; // float32
 }
 
