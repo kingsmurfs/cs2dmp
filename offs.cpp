@@ -49,5 +49,7 @@ namespace Offsets
 
     constexpr uintptr_t m_weaponMode = 0x19A8; // CSWeaponMode
     constexpr uintptr_t m_flRecoilIndex = 0x19D0; // float32
+
+    constexpr uintptr_t m_fFlags = 0x400 // uint32
 }
 
