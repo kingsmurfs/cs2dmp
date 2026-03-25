@@ -52,5 +52,6 @@ namespace Offsets
 
     constexpr uintptr_t m_fFlags = 0x400 // uint32
     constexpr uintptr_t m_iIDEntIndex = 0x3EAC; // CEntityIndex
+    constexpr uintptr_t m_vecVelocity = 0x438;
 }
 
