@@ -54,6 +54,7 @@ namespace Offsets
     constexpr uintptr_t m_iIDEntIndex = 0x3EAC; // CEntityIndex
     constexpr uintptr_t m_vecVelocity = 0x438;
 
+    constexpr unitptr_t m_hObserverPawn = 0x910; // CHandle<C_CSObserverPawn>
     constexpr uintptr_t m_pObserverServices = 0x13F0; // CPlayer_ObserverServices*
     constexpr uintptr_t m_hObserverTarget = 0x4C; // CHandle<C_BaseEntity>
     constexpr uintptr_t m_iObserverMode = 0x48; // uint8
