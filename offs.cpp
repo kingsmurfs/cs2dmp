@@ -58,5 +58,7 @@ namespace Offsets
     constexpr uintptr_t m_pObserverServices = 0x13F0; // CPlayer_ObserverServices*
     constexpr uintptr_t m_hObserverTarget = 0x4C; // CHandle<C_BaseEntity>
     constexpr uintptr_t m_iObserverMode = 0x48; // uint8
+
+    constexpr uintptr_t m_hMyWeapons = 0x48; // C_NetworkUtlVectorBase<CHandle<C_BasePlayerWeapon>>
 }
 
