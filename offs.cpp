@@ -5,9 +5,9 @@
 namespace Offsets
 {
     // -> offsets.h on a2x dumper (verified from main.cpp working version)
-    constexpr uintptr_t dwEntityList       = 0x24C9710;    // Verified working offset
-    constexpr uintptr_t dwLocalPlayerPawn  = 0x204F630;    // Verified working offset
-    constexpr uintptr_t dwViewMatrix       = 0x23290D0;    // Verified working offset
+    constexpr uintptr_t dwEntityList       = 0x24CED50;    // Verified working offset
+    constexpr uintptr_t dwLocalPlayerPawn  = 0x20547A0;    // Verified working offset
+    constexpr uintptr_t dwViewMatrix       = 0x232EAC0;    // Verified working offset
    
     // -> client.dll.hpp on a2x dumper -> C_BaseEntity
     constexpr uintptr_t m_iHealth          = 0x34C;        // 852
