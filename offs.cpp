@@ -45,6 +45,7 @@ namespace Offsets
     constexpr uintptr_t m_hActiveWeapon = 0x60; // CHandle<C_BasePlayerWeapon>
     constexpr uintptr_t m_hLastWeapon = 0x64; // CHandle<C_BasePlayerWeapon>
     constexpr uintptr_t m_iAmmo = 0x68; // uint16[32]
+    constexpr uintptr_t m_pAimPunchServices  = 0x1490;
     
     constexpr uintptr_t m_bIsDefusing      = 0x1C8A;       // C_CSPlayerPawn -> m_bIsDefusing
     constexpr uintptr_t m_bIsScoped        = 0x1C88;       // C_CSPlayerPawn -> m_bIsScoped
