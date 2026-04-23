@@ -21,7 +21,7 @@ namespace Offsets
 
     // -> C_CSPlayerPawn
     constexpr uintptr_t m_iShotsFired      = 0x1C5C;       // 9996
-    constexpr uintptr_t m_entitySpottedState = 0x11E0;     // 9952
+    constexpr uintptr_t m_entitySpottedState = 0x1C30;     // 9952
     
     // -> EntitySpottedState_t
     constexpr uintptr_t m_bSpotted         = 0x8;          // 8
