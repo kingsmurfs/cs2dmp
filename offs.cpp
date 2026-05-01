@@ -20,8 +20,8 @@ namespace Offsets
     constexpr uintptr_t m_vecViewOffset    = 0xE70;        // 3416
 
     // -> C_CSPlayerPawn
-    constexpr uintptr_t m_iShotsFired      = 0x1C5C;       // 9996
-    constexpr uintptr_t m_entitySpottedState = 0x1C30;     // 9952
+    constexpr uintptr_t m_iShotsFired      = 0x1C64;       // 9996
+    constexpr uintptr_t m_entitySpottedState = 0x1C38;     // 9952
     
     // -> EntitySpottedState_t
     constexpr uintptr_t m_bSpotted         = 0x8;          // 8
@@ -46,15 +46,15 @@ namespace Offsets
     constexpr uintptr_t m_iAmmo = 0x68; // uint16[32]
     constexpr uintptr_t m_pAimPunchServices  = 0x1490;
     
-    constexpr uintptr_t m_bIsDefusing      = 0x1C4A;       // C_CSPlayerPawn -> m_bIsDefusing
-    constexpr uintptr_t m_bIsScoped        = 0x1C48;       // C_CSPlayerPawn -> m_bIsScoped
+    constexpr uintptr_t m_bIsDefusing      = 0x1C52;       // C_CSPlayerPawn -> m_bIsDefusing
+    constexpr uintptr_t m_bIsScoped        = 0x1C50;       // C_CSPlayerPawn -> m_bIsScoped
     constexpr uintptr_t m_flFlashOverlayAlpha  = 0x13F4;       // C_CSPlayerPawn -> m_flFlashOverlayAlpha
 
     constexpr uintptr_t m_weaponMode = 0x17B8; // CSWeaponMode
     constexpr uintptr_t m_flRecoilIndex = 0x17E0; // float32
 
     constexpr uintptr_t m_fFlags = 0x3F8 // uint32
-    constexpr uintptr_t m_iIDEntIndex = 0x33DC; // CEntityIndex
+    constexpr uintptr_t m_iIDEntIndex = 0x343C; // CEntityIndex
     constexpr uintptr_t m_vecVelocity = 0x430;
 
     constexpr unitptr_t m_hObserverPawn = 0x908; // CHandle<C_CSObserverPawn>
