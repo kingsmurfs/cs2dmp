@@ -27,9 +27,9 @@ namespace Offsets
     constexpr uintptr_t m_bSpotted         = 0x8;          // 8
 
     // -> C_CSPlayerController
-    constexpr uintptr_t m_iszPlayerName    = 0x6F0;        // 1784
-    constexpr uintptr_t m_hPlayerPawn      = 0x904;        // 2316
-    constexpr uintptr_t m_bPawnIsAlive     = 0x90C;        // 2324
+    constexpr uintptr_t m_iszPlayerName    = 0x6F4;        // 1784
+    constexpr uintptr_t m_hPlayerPawn      = 0x90C;        // 2316
+    constexpr uintptr_t m_bPawnIsAlive     = 0x914;        // 2324
 
     // -> CGameSceneNode
     constexpr uintptr_t m_modelState       = 0x150;        // 352
@@ -54,10 +54,10 @@ namespace Offsets
     constexpr uintptr_t m_flRecoilIndex = 0x17E0; // float32
 
     constexpr uintptr_t m_fFlags = 0x3F8 // uint32
-    constexpr uintptr_t m_iIDEntIndex = 0x343C; // CEntityIndex
+    constexpr uintptr_t m_iIDEntIndex = 0x344C; // CEntityIndex
     constexpr uintptr_t m_vecVelocity = 0x430;
 
-    constexpr unitptr_t m_hObserverPawn = 0x908; // CHandle<C_CSObserverPawn>
+    constexpr unitptr_t m_hObserverPawn = 0x910; // CHandle<C_CSObserverPawn>
     constexpr uintptr_t m_pObserverServices = 0x11F8; // CPlayer_ObserverServices*
     constexpr uintptr_t m_hObserverTarget = 0x4C; // CHandle<C_BaseEntity>
     constexpr uintptr_t m_iObserverMode = 0x48; // uint8
