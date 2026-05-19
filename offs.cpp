@@ -5,9 +5,9 @@
 namespace Offsets
 {
     // -> offsets.h on a2x dumper (verified from main.cpp working version)
-    constexpr uintptr_t dwEntityList       = 0x24D4E80;    // Verified working offset
-    constexpr uintptr_t dwLocalPlayerPawn  = 0x205A700;    // Verified working offset
-    constexpr uintptr_t dwViewMatrix       = 0x2334850;    // Verified working offset
+    constexpr uintptr_t dwEntityList       = 0x250C5B0;    // Verified working offset
+    constexpr uintptr_t dwLocalPlayerPawn  = 0x2090880;    // Verified working offset
+    constexpr uintptr_t dwViewMatrix       = 0x236C2F0;    // Verified working offset
    
     // -> client.dll.hpp on a2x dumper -> C_BaseEntity
     constexpr uintptr_t m_iHealth          = 0x34C;        // 852
@@ -35,7 +35,7 @@ namespace Offsets
     constexpr uintptr_t m_modelState       = 0x150;        // 352
 
     // -> New Offsets (Update these for Weapon/Armor indicator to work)
-    constexpr uintptr_t m_ArmorValue       = 0x1C74;       // C_CSPlayerPawn -> m_ArmorValue
+    constexpr uintptr_t m_ArmorValue       = 0x1C7C;       // C_CSPlayerPawn -> m_ArmorValue
     constexpr uintptr_t m_AttributeManager = 0x1180;       // C_EconEntity -> m_AttributeManager (FIXED!)
     constexpr uintptr_t m_Item             = 0x50;         // C_AttributeContainer -> m_Item
     constexpr uintptr_t m_iItemDefinitionIndex = 0x1BA;    // C_EconItemView -> m_iItemDefinitionIndex
@@ -54,7 +54,7 @@ namespace Offsets
     constexpr uintptr_t m_flRecoilIndex = 0x17E0; // float32
 
     constexpr uintptr_t m_fFlags = 0x3F8 // uint32
-    constexpr uintptr_t m_iIDEntIndex = 0x344C; // CEntityIndex
+    constexpr uintptr_t m_iIDEntIndex = 0x33FC; // CEntityIndex
     constexpr uintptr_t m_vecVelocity = 0x430;
 
     constexpr unitptr_t m_hObserverPawn = 0x910; // CHandle<C_CSObserverPawn>
